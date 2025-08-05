@@ -4,6 +4,19 @@
     font-weight: normal;
     font-style: normal;
   }
+  @font-face {
+  font-family: 'Roobert PRO';
+  src: url('fonts/RoobertPRO-Light.woff2') format('woff2');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roobert PRO';
+  src: url('fonts/RoobertPRO-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+  
 
    * {
   margin: 0;
@@ -12,9 +25,11 @@
 }
   
 
-  :root {
-    --font-logo: 'Archia', sans-serif;
-  }
+ :root {
+  --font-logo: 'Archia', sans-serif;
+  --font-roobert: 'Roobert PRO', sans-serif;
+}
+
  
   .header {
     width: 100%;
@@ -34,7 +49,7 @@
   .logo {
     width: 8.625rem;
     height: 2.25rem;
-    margin-left: 1.5375rem;
+  padding-left: 1.2rem ;
 
   }
 
@@ -57,13 +72,13 @@
   .menu-hamburguer{
     height: 2.25rem;
     width: 2.25rem;
-    margin-left: 9.6rem;
+    margin-left: 9rem;
   }
 
   .main{
     display: flex;
     background-color: #EFEFEF;
-      flex-direction: column;
+    flex-direction: column;
   }
   
  .hero {
@@ -91,7 +106,10 @@
 .sub-title h4 {
   font-size: 0.77rem;
   color: #191919;
-  opacity: 0.6;
+  font-family: var(--font-roobert);
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
 }
 
 .section-hero{
@@ -101,7 +119,7 @@
 }
 
 .button-hero {
-  height: 2.4375rem;
+  height: 2.6375rem;
   width: 6.625rem;
   background-color: #1A1A1A;
   display: flex;
@@ -112,7 +130,8 @@
 .button-hero h3 {
   color: #EFEFEF;
   font-size: 0.8rem;
-  padding-top: 0.3rem;
+  font-family: var(--font-roobert);
+  font-weight: 300;
 }
 
 .circle-hero {
@@ -135,17 +154,17 @@
 }
 
 .arrow {
-  width: 0.7rem; 
-  height: 0.7rem;
+  width: 1rem; 
+  height: 1rem;
   position: absolute;
-  left: 0.6rem;
-  top: 0.6rem;
+  left: 0.9rem;
+  top: 0.67rem;
 }
 
 .text-circle {
   position: absolute;
   top: 35%;
-  left: 120%;
+  left: 140%;
   font-family: var(--font-logo);
   font-size: 0.8rem;
   background-color: #EFEFEF;
@@ -161,22 +180,36 @@
   padding-top: 3rem;
 }
 
-.building {
+.image-building {
   max-width: 100%;
   height: auto;
+  padding-bottom: 2.8rem;
+
 }
 
 .forms{
-  width: 20.2rem;
+  width: 19.2rem;
   height: 26.3125rem;
   background-color: #ffffff;
   align-items: center;
   margin-left: 1.5rem;
 }
 
-title-forms h2{
+.title-forms h2{
   font-family: var(--font-logo);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  padding: 1.1rem 1.1rem 0.7rem 1.1rem;
+}
+
+.sub-title-forms h4{
+  font-size: 0.7rem;
+  color: #191919;
+  font-family: var(--font-roobert);
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  padding-left: 1.1rem;
+
 }
 
 
