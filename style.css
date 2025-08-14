@@ -79,10 +79,13 @@
     width: 2.25rem;
     margin-left: 9.6rem;
   }
+  
+  
   /* ===============================
             Header Style
    =============================== */
 
+   
   .main{
     display: flex;
     flex-direction: column;
@@ -305,6 +308,7 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
 
 /* ===============================
             Form Style
@@ -1210,33 +1214,38 @@
   text-decoration: underline;
 }
 
-
-
-
-
 .menu-desktop {
   display: none;
 }
 
 @media (min-width: 1024px) {
+  .header-inner {
+    display: flex;
+    align-items: center; 
+  }
+
   .menu-desktop {
-    display: block;
+    display: flex;
+    align-items: center;
     margin-left: auto;
   }
 
-  .logo{
-    padding-left: 6.7rem;
-    padding-bottom: 3rem;
-  }
-
-  .text-logo{
-  margin-right: 20.3rem;
+  .menu-hamburguer {
+    display: none;
   }
 
   .menu-desktop ul {
     display: flex;
+    align-items: center; 
     list-style: none;
-    margin-left: 12.8rem;
+    margin: 0;
+    padding: 0;
+    gap: 2.5rem;
+  }
+
+  .menu-desktop li {
+    display: flex;
+    align-items: center;
   }
 
   .menu-desktop a {
@@ -1247,14 +1256,80 @@
   }
 
   .menu-desktop a:hover {
-    color: var(--color-primary);
+    color: var(--color-efect-text);
   }
 
-  #menu-toggle {
-    display: none;
+  .buttom-header a {
+    background-color: var(--color-dark-gray);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
   }
 
-  .header-inner {
-    justify-content: space-between;
+  .title h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .sub-title h4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .section-hero {
+    padding-top: 3rem;
+  }
+
+  .image-building {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  padding: 0;
+}
+
+.image-building img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;       
+  max-width: 500px;      
+}
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forms {
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+    margin-left: 0;
+    padding: 2rem;
+  }
+
+  .form-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 0;
+  }
+
+  .select-wrapper {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .form-group select {
+    width: auto;
+    min-width: 14rem;
+  }
+
+  .button-forms {
+    align-self: center;
   }
 }
