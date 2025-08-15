@@ -79,13 +79,17 @@
     width: 2.25rem;
     margin-left: 9.6rem;
   }
+  
+  
   /* ===============================
             Header Style
    =============================== */
 
+   
   .main{
     display: flex;
     flex-direction: column;
+    background-color: var(--color-light-gray);
   }
 
   /* ===============================
@@ -208,7 +212,10 @@
   width: 22.82419rem;
   height: 24.99994rem;  
   padding-bottom: 2.8rem;
+  max-width: 100%;
+  height: auto;
 }
+
 
 .background-forms{
   background: linear-gradient(to bottom, var(--color-light-gray) 48.8%, var(--color-dark-gray) 0%);
@@ -306,6 +313,7 @@
   border: 0;
 }
 
+
 /* ===============================
             Form Style
    =============================== */
@@ -372,6 +380,9 @@
   font-weight: 100;
   padding-bottom: 2.6rem;
   line-height: 1.125rem
+}
+.desktop-only {
+  display: none;
 }
 
 /* ===============================
@@ -455,7 +466,7 @@
   height: 24.9375rem;
   margin-left: 1.5rem;
   padding-bottom: 3.8rem;
-}
+}   
 
 /* ===============================
             Workflow Style
@@ -1210,51 +1221,228 @@
   text-decoration: underline;
 }
 
-
-
-
-
 .menu-desktop {
   display: none;
 }
 
-@media (min-width: 1024px) {
+
+@media (min-width: 728px) {
+
+  .menu-hamburguer {
+    display: none;
+  }
   .menu-desktop {
-    display: block;
+    display: flex;
+    align-items: center;
     margin-left: auto;
   }
-
-  .logo{
-    padding-left: 6.7rem;
-    padding-bottom: 3rem;
-  }
-
-  .text-logo{
-  margin-right: 20.3rem;
-  }
-
   .menu-desktop ul {
     display: flex;
+    align-items: center;
     list-style: none;
-    margin-left: 12.8rem;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+    padding-left: 2rem;
   }
-
   .menu-desktop a {
     font-family: var(--font-roobert);
     font-size: 0.875rem;
     color: var(--color-dark-gray);
     text-decoration: none;
+    transition: color 0.3s ease; 
   }
-
   .menu-desktop a:hover {
-    color: var(--color-primary);
+    color: var(--color-efect-text);
+  }
+  .buttom-header a {
+    background-color: var(--color-dark-gray);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
   }
 
-  #menu-toggle {
+  .hero-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 4rem 2rem; 
+    background-color: var(--color-light-gray);
+  }
+
+  .hero {
+    flex: 1; 
+    padding: 0;
+  }
+
+  .image-building {
+    flex: 1; 
+    padding: 0;
+    align-self: stretch;
+  }
+
+  .image-building img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    max-width: none; /
+   
+  }
+
+  .title h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .sub-title h4 {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .main{
+    background-color: var(--color-light-gray);
+  }
+  
+  .background-forms {
+    padding: 4rem 2rem;
+  }
+
+  .forms {
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    padding: 2.5rem 3rem;
+    border-radius: 8px;
+    height: auto;
+    width: auto;
+  }
+
+  .title-forms,
+  .sub-title-forms {
+    text-align: center;
+    padding: 0;
+  }
+
+  .title-forms h2 {
+    font-size: 1.8rem;
+  }
+
+  .sub-title-forms h4 {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+  }
+
+  .form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0;
+  }
+
+  .form-group .visually-hidden {
     display: none;
   }
-
-  .header-inner {
-    justify-content: space-between;
+  
+  .select-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+    height: 3.5rem;
+    padding: 0 0.5rem;
   }
+  
+  .form-group select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    padding: 0; 
+    color: #191919B9;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .buttom-menu-form {
+      padding: 0;
+      cursor: pointer;
+  }
+
+  .button-forms {
+    margin: 0;
+    width: auto;
+    height: 3.5rem;
+    padding: 0 2rem;
+    border-radius: 4px;
+  }
+
+    .workflow {
+        position: relative;
+        max-width: 1100px;
+        margin: 5rem auto;
+        box-sizing: border-box;
+        padding-left: 50%; 
+    }
+
+    .people-talkiing {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 48%; 
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    
+    .title-workflow,
+    .workflow-icon,
+    .play-button {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    
+
+    .workflow-icon {
+        margin-top: 1.5rem;
+    }
+
+    .play-button {
+        margin-top: 1rem;
+    }
+
+    .header-play-button {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .title-workflow h1 {
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+
+    .header-play-button h2 {
+        font-weight: 400;
+        font-size: 1.8rem;
+        text-align: left;
+    }
+    
+    .content {
+  color: #5F5F5F; 
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  margin-top: 1rem;
+}
+
 }

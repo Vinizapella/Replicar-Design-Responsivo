@@ -1,87 +1,107 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portal Architecture</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
+    
     <header class="header">
+
         <div class="container header-inner">
+
             <div class="logo">
                 <img src="images/logo-black.svg" alt="company logo">
             </div>
+
             <h2 class="text-logo">Portal <br> Architecture</h2>
+
             <nav class="menu" aria-label="Menu Principal"> 
+
                 <div class="menu-mobile">
                     <button id="menu-toggle" aria-label="open the mobile menu"><img class="menu-hamburguer" src="images/menu-hamburguer.svg"></button>
-                </div>    
+                </div>  
+
                 <div class="menu-desktop">
+
                     <ul>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Portofolio</a></li>
                         <li><a href="#">Products</a></li>
                         <li><a href="#">How it works</a></li>
-                        <li><a>|</a></li>
+                        <li class="separator"><a>|</a></li>
                         <li><a href="#">Explore</a></li>
-                        <div class="buttom-header">
-                            <li><a href="#">CONTACT US</a></li>
-                        </div>
+                        <li class="buttom-header"><a href="#">CONTACT US</a></li>
                     </ul>
+
                 </div>
+
             </nav>
+
         </div>
+
     </header>
+
         <main class="main">
 
-            
-            <section id="hero" class="hero">
+            <section class="hero-container">    
+                <section id="hero" class="hero">
 
-                <div class="title">
-                    <h1>
-                         Realize your dreams <br>
-                         about <span class="title-effect">building</span> and <br>
-                        <span class="title-effect">construction</span>
-                    </h1>
-
-                </div>
-
-                <div class="sub-title">
-                    <h4>We turn your dream to reality and we'll never stop <br>
-                        until you're satisfied with the result
-                    </h4>
-
-                </div>
-
-                <div class="section-hero">
-
-                    <div class="button-hero">
-                        <h3>Get in Touch</h3>
+                    <div class="title">
+                        <h1>
+                            Realize your dreams <br>
+                            about <span class="title-effect">building</span> and <br>
+                            <span class="title-effect">construction</span>
+                        </h1>
 
                     </div>
 
-                    <div class="circle-hero">
+                    <div class="sub-title">
+                        <h4>We turn your dream to reality and we'll never stop <br>
+                            until you're satisfied with the result
+                        </h4>
 
-                        <div class="circle">
-                            <span class="arrow">
-                                <img src="images/arrow-up-right.svg" alt="arrow pointing to the right direction">
-                            </span>
-                        
+                    </div>
+
+                    <div class="section-hero">
+
+                        <div class="button-hero">
+                            <h3>Get in Touch</h3>
+
                         </div>
 
-                        <div class="text-circle">DROP A LINE</div>
+                        <div class="circle-hero">
+
+                            <div class="circle">
+                                <span class="arrow">
+                                    <img src="images/arrow-up-right.svg" alt="arrow pointing to the right direction">
+                                </span>
+                            
+                            </div>
+
+                            <div class="text-circle">DROP A LINE</div>
+
+                        </div>
 
                     </div>
 
+                </section>
+
+
+                <div class="image-building">
+                        <img src="images/building.svg" alt="image of a building">
                 </div>
-
-            </section>
-
-
-            <div class="image-building">
-                    <img src="images/building.svg" alt="image of a building">
-            </div>
+            </section>    
 
 
             <div class="background-forms">
@@ -142,6 +162,11 @@
 
             <section class="services">
 
+                <a href="#" class="btn-get-in-touch desktop-only">
+                    Get in Touch
+                    <img src="images/arrow-up-right-white.svg" alt="arrow icon">
+                </a>
+
                 <div class="part-services">
 
                     <div class="text-services">
@@ -162,7 +187,7 @@
                         <div class="service-one">
 
                             <div class="icon-services">
-                                <img src="images/bank.svg" alt="image of a bank icon" >
+                                <img src="images/bank.svg" alt="image of a bank icon">
                             </div>
 
                             <div class="title-service-one">
@@ -171,16 +196,21 @@
 
                             <div class="suble-title-service-one">
                                 One-sheet cross sabers, yet dunder mifflin so window licker. <br>
-                                 But what's the real we're trying to solve here personal <br>
+                                But what's the real we're trying to solve here personal <br>
                                 development what's
                             </div>
+
+                            <a href="#" class="service-link desktop-only">
+                                View Service
+                                <img src="images/arrow-circle-white.svg" alt="view service">
+                            </a>
 
                         </div>
 
                         <div class="service-one">
 
                             <div class="icon-services">
-                                <img src="images/star.svg" alt="image of a star" >
+                                <img src="images/star.svg" alt="image of a star">
                             </div>
 
                             <div class="title-service-one">
@@ -189,9 +219,14 @@
 
                             <div class="suble-title-service-one">
                                 One-sheet cross sabers, yet dunder mifflin so window licker. <br>
-                                 But what's the real we're trying to solve here personal <br>
+                                But what's the real we're trying to solve here personal <br>
                                 development what's
                             </div>
+
+                            <a href="#" class="service-link desktop-only">
+                                View Service
+                                <img src="images/arrow-circle-white.svg" alt="view service">
+                            </a>
 
                         </div>
 
@@ -200,16 +235,21 @@
                             <div class="icon-services">
                                 <img src="images/paint-roller-white.svg" alt="image of a paint roller">
                             </div>
-
+                            
                             <div class="title-service-one">
                                 <h3>Installation & Stuff</h3>
                             </div>
 
                             <div class="suble-title-service-one">
                                 One-sheet cross sabers, yet dunder mifflin so window licker. <br>
-                                 But what's the real we're trying to solve here personal <br>
+                                But what's the real we're trying to solve here personal <br>
                                 development what's
                             </div>
+
+                            <a href="#" class="service-link desktop-only">
+                                View Service
+                                <img src="images/arrow-circle-white.svg" alt="view service">
+                            </a>
 
                         </div>
 
@@ -217,6 +257,11 @@
 
                 </div>
 
+                <div class="slider-dots desktop-only">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
 
             </section>
 
@@ -671,4 +716,3 @@
 
 
 </html>
-
