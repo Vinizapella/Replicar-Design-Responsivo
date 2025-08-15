@@ -81,9 +81,13 @@
   }
   
   
+  
+  
   /* ===============================
             Header Style
    =============================== */
+
+   
 
    
   .main{
@@ -312,6 +316,7 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
 
 
 /* ===============================
@@ -1232,6 +1237,8 @@
     display: none;
   }
   .menu-desktop {
+    display: flex;
+    align-items: center;
     display: flex;
     align-items: center;
     margin-left: auto;
