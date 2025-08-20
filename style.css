@@ -55,8 +55,8 @@
 }
  
 .logo {
-  width: 2.25rem;
-  height: 2.25rem;
+  width: clamp(2.25rem, 1.964rem + 1.221vw, 3.0625rem);
+  height: clamp(2.25rem, 1.964rem + 1.221vw, 3.0625rem);
 }
 
 #menu-toggle {
@@ -111,12 +111,12 @@
 }
 
 .title h1 {
-  font-size: clamp(1.5rem, 6.4vw, 2.5rem);
-  line-height: 2.125rem; 
+  font-size: clamp(1.5rem, 0.752rem + 3.192vw, 3.625rem);
+  line-height: clamp(2.125rem, 1.201rem + 3.944vw, 4.75rem);
   font-family: var(--font-logo);
   color: var(--color-dark-gray);
   padding-bottom: 5.55%; 
-  letter-spacing: -0.083%;
+  letter-spacing: clamp(-0.04713rem, 0.015rem - 0.07vw, -0.00083rem);
 }
 
 .title-effect {
@@ -129,7 +129,7 @@
   color: #191919E0;
   font-family: var(--font-roobert);
   font-weight: 400;
-  line-height: 1.3125;
+  line-height: clamp(1.3125rem, 1.158rem + 0.657vw, 1.75rem);
 }
 
 .section-hero{
@@ -139,8 +139,8 @@
 }
 
 .button-hero {
-  height: 2.5rem;
-  width: 28.624vw;
+  height: clamp(2.5rem, 2.148rem + 1.502vw, 3.5rem);
+  width: clamp(6.709rem, 5.792rem + 3.912vw, 9.3125rem);
   background-color: #1A1A1A;
   display: flex;
   align-items: center;
@@ -149,7 +149,7 @@
 
 .button-hero h3 {
   color: var(--color-light-gray);
-  font-size: clamp(0.7rem, 3vw, 1.25rem);
+  font-size: clamp(0.7rem, 1.111vw, 1rem);
   letter-spacing: 0.03%;
   font-family: var(--font-roobert);
   font-weight: 400;
@@ -158,14 +158,14 @@
 
 .circle-hero {
   position: relative;
-  width: 2.4375rem;
-  height: 2.4375rem;
+  width: clamp(2.4375rem, 2.063rem + 1.596vw, 3.5rem);
+  height: clamp(2.4375rem, 2.063rem + 1.596vw, 3.5rem);
 }
 
 .circle {
   position: relative;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: clamp(2.4375rem, 2.063rem + 1.596vw, 3.5rem);
+  height: clamp(2.4375rem, 2.063rem + 1.596vw, 3.5rem);
   margin-left: 1.38rem;
   stroke-width: 0.571px;
   border: 0.001px solid #0F0800;
@@ -178,8 +178,8 @@
 
 .arrow {
   position: absolute;
-  width: 4.27vw; 
-  height: 4.27vw;
+  width: clamp(0.875rem, 1.044rem - 0.188vw, 1rem);
+  height: clamp(0.875rem, 1.044rem - 0.188vw, 1rem);
   left: 0.9rem;
   top: 0.67rem;
 }
@@ -188,7 +188,7 @@
   position: absolute;
   top: 35%; 
   left: 140%;
-  font-size: clamp(0.75rem, 3.05vw, 1.25rem);
+  font-size: clamp(0.75rem, 1.111vw, 1rem);
   font-family: var(--font-logo);
   background-color: var(--color-light-gray);
   color: #0F0800;
@@ -216,10 +216,9 @@
 }
 
 .image-building {
-width: 97.38%;
-height: 106.67%; 
+width: clamp(22.823rem, 17.572rem + 22.404vw, 37.73588rem);
+height: clamp(25rem, 19.237rem + 24.601vw, 41.375rem);
 padding-bottom: 11.95%;
-max-width: 100%;
 height: auto;
 }
 
@@ -238,8 +237,8 @@ height: auto;
 
 
 .forms{
-  width: 86.19%;
-  height: 68.05vh;
+  width: clamp(20.4375rem, 89.484vw - 0.535rem, 80rem);
+  height: 29.3125rem;
   background-color: #F5F5F5;
   align-items: center;
   margin-left: 6.4%;
@@ -247,12 +246,12 @@ height: auto;
 
 .title-forms h2{
   font-family: var(--font-logo);
-  font-size: clamp(1.2rem, 5.12vw, 2rem);
+  font-size: clamp(1.2rem, 0.74rem + 1.192vw, 2rem);
   padding: 4.69% 4.69% 2.99% 4.69%;
 }
 
 .sub-title-forms h4{
-  font-size: clamp(0.75rem, 2.99vw, 1.25rem);
+  font-size: clamp(0.75rem, 0.662rem + 0.376vw, 1rem);
   color:  var(--color-dark-gray);
   font-family: var(--font-roobert);
   font-weight: 300;
@@ -282,8 +281,8 @@ height: auto;
 }
 
 .buttom-menu-form {
-  width: 10.67%;
-  height: 10.67%;
+  width: clamp(2.5rem, 2.324rem + 0.751vw, 3rem);
+  height: clamp(2.5rem, 2.324rem + 0.751vw, 3rem);
   padding-bottom: 0.85%;
   padding-left: 2.13%;
 }
@@ -294,8 +293,8 @@ height: auto;
   font-family: var(--font-roobert);
   font-weight: 550;
   gap: 0.625rem;
-  height: 2.6375rem;
-  width: 8.725rem;
+ height: clamp(2.6375rem, 2.453rem + 0.788vw, 3rem);
+  width: clamp(8.725rem, 8.353rem + 1.523vw, 9.625rem);
   background-color: #1A1A1A;
   display: flex;
   align-items: center;
@@ -345,7 +344,7 @@ height: auto;
 .title-services h2{
   font-family: var(--font-logo);
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 0.752rem + 3.192vw, 3.625rem);
   font-weight: 400; 
   padding-bottom: 0.85rem;
   letter-spacing: -0.0195rem;
@@ -354,23 +353,29 @@ height: auto;
 .sub-title-services h4{
   font-family: var(--font-roobert);
   color: #FFFFFFCC;
-  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.618rem + 0.563vw, 1.125rem);
   font-weight: 400;
   padding-bottom: 2.6rem;
   line-height: 1rem
 }
 
 .icon-services {
-  height: 9rem;
-  width: 9rem;
+  height: clamp(9rem, 6.007rem + 12.77vw, 17.5rem);
+  width: clamp(9rem, 6.007rem + 12.77vw, 17.5rem);
   margin: 0 auto;
   padding-bottom: 1.5rem;
+}
+
+.image-icon {
+  
+  height: clamp(9rem, 6.007rem + 12.77vw, 17.5rem);
+  width: clamp(9rem, 6.007rem + 12.77vw, 17.5rem);
 }
 
 .title-service-one h3{
   font-family: var(--font-logo);
   color: #ffffff;
-  font-size: 1.125rem;
+  font-size: clamp(1.125rem, 0.729rem + 1.69vw, 2.25rem);
   font-weight: 400; 
   padding-bottom: 0.85rem;
   letter-spacing: 0.01125rem;
@@ -379,7 +384,7 @@ height: auto;
 .suble-title-service-one{
   font-family: var(--font-roobert);
   color: #FFFFFFB3;
-  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.618rem + 0.563vw, 1.125rem);
   font-weight: 100;
   padding-bottom: 2.6rem;
   line-height: 1.125rem
@@ -403,8 +408,8 @@ height: auto;
 }
 
 .title-workflow h1{
-  font-size: clamp(1.5rem, 6.4vw, 2rem);
-  line-height: 1.42;
+  font-size: clamp(1.5rem, 0.752rem + 3.192vw, 2rem);
+  line-height: clamp(1.42rem, 0.248rem + 5.003vw, 4.75rem);
   font-family: var(--font-logo);
   color: var(--color-dark-gray);
   padding-top: 3.8rem;
@@ -422,8 +427,8 @@ height: auto;
 }
 
 .image-briefing{
-   width: clamp(10rem, 15.5vw, 17rem);
-    height: auto;
+  width: clamp(8.125rem, 6.717rem + 6.009vw, 12.125rem);
+  height: clamp(2.875rem, 2.347rem + 2.254vw, 4.375rem);
 }
 
 .circle-workflow {
@@ -432,19 +437,19 @@ height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: clamp(3rem, 15.5vw, 4rem);
+  width: clamp(2.93163rem, 2.221rem + 2.977vw, 4.375rem);
+  height: clamp(2.875rem, 2.22rem + 2.805vw, 4.375rem);
   aspect-ratio: 1 / 1; 
-  height: auto;
 }
 
 .icon-workflow {  
-  width: 43%;
-  height: 43%;
+  width: clamp(1.25638rem, 1.02rem + 0.999vw, 1.875rem);
+  height: clamp(1.23213rem, 0.892rem + 1.455vw, 1.875rem);
 }
 
 .header-play-button {
-  height: 17.07%;
-  width: 77.33%;
+  width: 3.75rem;
+  height: 3.75rem;
   background-color: var(--color-light-gray);
   margin-left: 6.4%;
   padding-top: 14.93%;
@@ -464,18 +469,18 @@ height: auto;
 .content { 
   color: #191919CC;
   font-family: var(--font-roobert);
-  font-size: 3.58vw;
+  font-size: clamp(0.875rem, 0.707rem + 0.714vw, 1.25rem);
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: clamp(1.5rem, 1.229rem + 1.155vw, 2.0625rem);
   padding-top: 7.68%;
   padding-left: 6.4%;
   padding-bottom: 8.53%;
 }
 
 .people-talkiing {
-  width: clamp(20rem, 87.3vw, 30rem);
-  height: auto;
+  width: clamp(20.4375rem, 14.591rem + 23.361vw, 34.4375rem);
+  height: clamp(24.9375rem, 18.73rem + 26.491vw, 39.375rem);  
   margin-left: 6.4%;
   padding-bottom: 16.21%;
 }
@@ -499,10 +504,10 @@ height: auto;
 }
 
 .title-impacts-number h2{
-  font-size: clamp(1.5rem, 6.4vw, 2rem);
+  font-size: (1.5rem, 0.752rem + 3.192vw, 3.625rem);
   font-family: var(--font-logo);
   color: var(--color-dark-gray);
-  line-height: 1.6;
+  line-height: clamp(2.125rem, 1.201rem + 3.944vw, 4.75rem);
   padding-bottom: 3.2%;
   }
 
@@ -511,7 +516,7 @@ height: auto;
   color: #191919CC;
   font-size: clamp(0.75rem, 3.2vw, 1.25rem);
   font-weight: 400;
-  line-height: 1.75;
+  line-height: clamp(1.3125rem, 1.158rem + 0.657vw, 1.75rem);
 }
 
 
@@ -627,9 +632,9 @@ height: auto;
 
 .latest-title {
   color: #ffffff;
-  padding-left: 11.52%;
+  text-align: center;
   font-family: var(--font-logo);
-  font-size: 6.4vw;
+  font-size: clamp(1.5rem, 0.752rem + 3.192vw, 3.625rem); 
   font-style: normal;
   font-weight: 400;
   line-height: 2.125rem; 
@@ -641,12 +646,11 @@ height: auto;
   color: #FFFFFFCC;
   text-align: center;
   font-family: var(--font-roobert);
-  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.618rem + 0.563vw, 1.125rem);
   font-style: normal;
   font-weight: 400;
   line-height: 1.125rem;
   padding-bottom: 10.24%; 
-  padding-right: 11.52%;
 }
 
 .latest-list {
@@ -660,14 +664,14 @@ height: auto;
   justify-content: space-between;
   align-items: center;
   background-color: #212121;
-  width: 93.2%;
-  height: 4.875rem;
+  width: clamp(20.4375rem, 0.347rem + 85.728vw, 77.5rem);
+  height: clamp(4.875rem, 2.96rem + 8.169vw, 10.3125rem);
 }
 
 .work-info h3 {
   color: #FFFFFF99;
   font-family: var(--font-logo);
-  font-size: 1.125rem;
+  font-size: clamp(1.125rem, 0.641rem + 2.066vw, 2.5rem);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -678,7 +682,7 @@ height: auto;
 .work-info p {
   color: #FFFFFF66;
   font-family: var(--font-roobert);
-  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.618rem + 0.563vw, 1.125rem);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -778,6 +782,8 @@ height: auto;
         Services section Style
    =============================== */
 
+   
+
 
 .services-section {
   background-color: var(--color-light-gray);
@@ -794,6 +800,7 @@ height: auto;
   padding-top: 16.21%;
   padding-bottom: 10.67%;
 }
+
 .service-option {
     display: flex;
     justify-content: space-between;
@@ -841,9 +848,11 @@ height: auto;
     padding: 0; 
 }
 
+
+
 .image-container img {
-  width: clamp(20rem, 87.2vw, 40rem);
-  height: auto;
+  width: clamp(20.4375rem, 14.341rem + 25.992vw, 35.375rem);
+  height: clamp(24.9375rem, 18.498rem + 27.701vw, 40.125rem);
   margin-left: 6.4vw;
   margin-top: 3.41vw;
 }
@@ -860,44 +869,44 @@ height: auto;
 .news-section h2 {
   font-family: var(--font-logo);
   color: var(--color-dark-gray);
-  font-size: clamp(1.5rem, 6.4vw, 2rem); 
+  font-size: clamp(1.5rem, 0.752rem + 3.192vw, 3.625rem);
   font-weight: 600;
-  line-height: 2.125rem;
+  line-height: clamp(2.125rem, 1.201rem + 3.944vw, 4.75rem);
   letter-spacing: -0.0195rem;
   padding-bottom: 3.41vw;
 }
 
 .news-description {
   color: #191919B3;
-  font-size: clamp(0.55rem, 3.2vw, 1.25rem);
+  font-size: clamp(0.75rem, 0.582rem + 0.714vw, 1.25rem);
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   font-weight: 400;
-  line-height: 1.25rem;
+  line-height: clamp(1.25rem, 2.352rem - 1.286vw, 2rem);
   padding-bottom: 8.32vw;
 }
 
 .news-button {
   background-color: #1A1A1A;
   font-family: var(--font-roobert);
-  width: clamp(10rem, 32.53vw, 14rem);
-  height: clamp(2.5rem, 10.66vw, 3.5rem);
+  width: clamp(7.625rem, 6.757rem + 3.535vw, 9.5rem);
+  height: clamp(2.5rem, 2.129rem + 1.604vw, 3.5rem);
   cursor: pointer;
   color: var(--color-light-gray);
-  font-size: clamp(0.65rem, 2.8vw, 0.9rem);
+  font-size: clamp(0.71431rem, 0.61rem + 0.444vw, 1rem);
   font-weight: 400;
   line-height: normal;
 }
 
 .news-card {
   text-align: left;
-  width: clamp(20rem, 92.53vw, 40rem);
+  width: clamp(20rem, 92.53vw, 30rem);
   padding-left: 6.4vw;
 }
 
 .news-image {
-  width: clamp(20rem, 87.2vw, 40rem);
-  height: auto;
+  width: clamp(20.4375rem, 19.451rem + 3.946vw, 24.5rem);
+  height: clamp(14.18113rem, 13.14rem + 4.164vw, 17rem);  height: auto;
   display: block;
   padding-top: 8.32vw;
   padding-bottom: 4.27vw;
@@ -906,7 +915,7 @@ height: auto;
 .news-meta {
   color: #191919A3;
   font-family: var(--font-logo);
-  font-size: clamp(0.75rem, 3.11vw, 1.25rem); 
+  font-size: clamp(0.72994rem, 0.672rem + 0.248vw, 0.875rem);
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.0095rem;
@@ -916,9 +925,9 @@ height: auto;
 .news-title {
   color: #000;
   font-family: var(--font-logo);
-  font-size: clamp(1rem, 5.33vw, 1.75rem); 
+  font-size: clamp(1.25125rem, 1.157rem + 0.384vw, 1.5rem);
   font-weight: 600;
-  line-height: clamp(1.5rem, 8vw, 2.5rem);
+  line-height: clamp(1.87694rem, 2.404rem - 0.841vw, 2.25rem);
   letter-spacing: -0.01625rem;
   padding-bottom: 6.4vw;
 }
@@ -927,7 +936,7 @@ height: auto;
   color: #000;
   text-decoration: underline;
   font-family: var(--font-logo);
-  font-size: clamp(0.75rem, 3.11vw, 1.25rem); 
+  font-size: clamp(0.72994rem, 0.672rem + 0.248vw, 0.875rem);
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.0095rem;
@@ -956,7 +965,7 @@ height: auto;
   color: #ffffff;
   text-align: center;
   font-family: var(--font-logo);
-  font-size: clamp(1.5rem, 6.4vw, 2.5rem); 
+  font-size: clamp(1.5rem, 0.752rem + 3.192vw, 3.625rem);
   font-weight: 400;
   line-height: 2.125rem; 
   letter-spacing: -0.0195rem;
@@ -964,13 +973,13 @@ height: auto;
 }
 
 .buttom-customer h3 {
-  width: clamp(10rem, 25.65vw, 16rem);
-  height: clamp(2.5rem, 10.66vw, 4rem);
+  width: clamp(6.65181rem, 5.342rem + 5.619vw, 9.3125rem);
+  height: clamp(2.5rem, 2.129rem + 1.604vw, 3.5rem);
   background-color: var(--color-light-gray);
   color: var(--color-dark-gray);
   text-align: center;
   font-family: var(--font-roobert);
-  font-size: clamp(0.75rem, 3.05vw, 1.25rem); 
+  font-size: clamp(0.71431rem, 0.61rem + 0.444vw, 1rem);
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.00713rem;
@@ -982,20 +991,22 @@ height: auto;
 
 .men {
   padding-left: 6.4vw;
-  width: 87.2vw;
-  height: auto; 
-  max-height: 106.4vw;
+  width: clamp(20.4375rem, 18.281rem + 9.222vw, 26.1875rem);
+  height: clamp(24.9375rem, 23.013rem + 8.214vw, 29.625rem);
   padding-bottom: 8.533vw;
 }
 
 .changi {
+  display: block;
   margin-left: 6.4vw;
+  width: clamp(5.53056rem, 3.966rem + 6.685vw, 9.21756rem);
+  height: clamp(1.5rem, 1.129rem + 1.604vw, 2.5rem);
 }
 
 .title-professional-skill h3 {
   color: #FFF;
   font-family: var(--font-logo);
-  font-size: clamp(1rem, 4.27vw, 1.75rem); 
+  font-size: clamp(1rem, 0.782rem + 0.902vw, 1.75rem);
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.013rem;
@@ -1004,9 +1015,9 @@ height: auto;
 .subtitle-skill {
   color: #FFFFFFB3;
   font-family: var(--font-roobert);
-  font-size: clamp(0.75rem, 2.99vw, 1.25rem); 
+  font-size: clamp(0.75rem, 0.618rem + 0.563vw, 1.125rem);
   font-weight: 100;
-  line-height: 1.125rem;
+  line-height: clamp(1.125rem, 0.941rem + 0.788vw, 1.6875rem);
   padding-top: 4.27vw;
 }
 
@@ -1017,7 +1028,7 @@ height: auto;
 .person-name h3 {
   color: #FFF;
   font-family: var(--font-logo);
-  font-size: clamp(1rem, 5.33vw, 2rem);
+  font-size: clamp(1.25rem, 1.156rem + 0.376vw, 1.5rem);
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.01625rem;
@@ -1026,7 +1037,7 @@ height: auto;
 .person-manager h4 {
   color: #FFFFFFA3;
   font-family: var(--font-roobert);
-  font-size: clamp(0.75rem, 3.2vw, 1.25rem);
+  font-size: clamp(0.75rem, 0.705rem + 0.188vw, 0.875rem);
   font-weight: 400;
   line-height: normal;
   padding-top: 0.2rem;
@@ -1035,8 +1046,8 @@ height: auto;
 
 .two-buttom-one,
 .two-buttom-two {
-  width: clamp(2rem, 11.2vw, 3rem);
-  height: clamp(2rem, 11.2vw, 3rem);
+  width: clamp(2.625rem, 2.38rem + 1.042vw, 3.25rem);
+  height: clamp(2.625rem, 2.38rem + 1.042vw, 3.25rem);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1044,8 +1055,8 @@ height: auto;
 }
 
 .two-buttom-one{
-  width: clamp(2rem, 11.2vw, 3rem);
-  height: clamp(2rem, 11.2vw, 3rem);
+  width: clamp(2.625rem, 2.38rem + 1.042vw, 3.25rem);
+  height: clamp(2.625rem, 2.38rem + 1.042vw, 3.25rem);
   background-color: var(--color-light-gray);
   border-radius: 50%; display: flex;
   align-items: center; 
@@ -1053,8 +1064,8 @@ height: auto;
  } 
 
 .two-buttom-two{
-  width: clamp(2rem, 11.2vw, 3rem);
-  height: clamp(2rem, 11.2vw, 3rem);
+  width: clamp(2.625rem, 2.38rem + 1.042vw, 3.25rem);
+  height: clamp(2.625rem, 2.38rem + 1.042vw, 3.25rem);
   border: 0.001px solid var(--color-light-gray);
   border-radius: 50%; 
   display: flex; align-items: center; 
@@ -1081,6 +1092,9 @@ height: auto;
 /* ===============================
             Customer Style
    =============================== */
+
+
+/*
 
 @media(min-width:768px){
 .title h1{
@@ -1221,6 +1235,39 @@ height: auto;
 }
 
 
+}
+
+@media (min-width: 440px) { 
+
+  .button-forms{
+    margin-left: 30.33%;
+  }
+
+  .form-group {
+  gap: 0.5rem;
+  padding-left: 4.69%;
+}
+}
+@media (min-width: 520px) { 
+
+  .button-forms{
+    margin-left: 30.33%;
+    margin-top: 1.3rem;
+  }
+
+
+.forms{
+  height: 60.05vh;;
+} 
+}
+
+@media(min-width: 670px){
+  .forms{
+    height: 70vh;
+  }
+  .people-talkiing{
+    margin-left: 17vw;
+  }
 }
 
 
