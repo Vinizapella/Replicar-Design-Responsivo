@@ -1740,138 +1740,244 @@ height: auto;
 }
 
 
-
-  /*
-
-
-
-
-   
 .footer {
+  position: absolute;
   background-color: #0f0f0f;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  padding: 2rem;
+  width: 375px;
+  height: 1064px;
 }
 
-.footer-logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 2rem;
+.logo-white-footer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 49px;
+  height: 49px;
+  overflow: hidden;
 }
 
-.footer-logo img {
-  height: 3.0625rem;
-  width: 3.0625rem;
+.logo-titulo h3{
+    position: absolute;
+    top: 3px;
+    left: 16.8vw;
+    line-height: 22px;
+    color: #ffffff;
+    font-size: var(--font-logo);
 }
 
-.btn-started {
-  background-color: #fff;
-  color: #000;
-  padding: 2.13vw 4.27vw;
-  font-size: 0.875rem;
-  border: none;
-  cursor: pointer;
+.buttom-footer-rectangle{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #efefef;
 }
 
-.newsletter p {
-  font-size: 0.875rem;
-  margin-bottom: 2.13vw;
+.buttom-text h3{
+  position: absolute;
+  top: calc(50% - 8.51px);
+  left: 25.46%;
+  font-size: 14px;
+  text-align: center;
+  font-size: var(--font-logo);
 }
 
-.newsletter form {
-  display: flex;
-  align-items: center;
+.buttom-footer {
+    position: absolute;
+    height: 100%;
+    width: 39.76%;
+    left: 60.24%;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
 }
 
-.newsletter input {
-  flex: 1;
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #555;
-  color: #fff;
-  padding: 2.13vw;
-}
-
-.newsletter button {
-  background-color: #fff;
-  border: none;
-  padding: 2.13vw 0.75rem;
-  cursor: pointer;
-  font-size: 4.27vw;
-}
-
-.footer-links {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.footer-column h4 {
-  font-size: 0.75rem;
-  color: #999;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.75rem;
-}
-
-.footer-column a {
-  display: block;
-  color: #fff;
-  font-size: 0.875rem;
-  text-decoration: none;
-  margin-bottom: 2.13vw;
-}
-
-.footer-column a:hover {
-  text-decoration: underline;
-}
-
-.social-icons {
-  display: flex;
-  gap: 0.75rem;
-  margin-top: 4.27vw;
-}
-
-.social-icons img {
-  background-color: #333;
-  border-radius: 50%;
-  padding: 2.13vw;
-  height: 2rem;
-  width: 2rem;
-}
-
-.footer-bottom {
-  border-top: 1px solid #222;
-  margin-top: 2rem;
-  padding-top: 4.27vw;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  font-size: 0.75rem;
-  color: #999;
-}
-
-.footer-bottom-links {
-  display: flex;
-  gap: 4.27vw;
-}
-
-.footer-bottom-links a {
-  color: #999;
-  text-decoration: none;
-}
-
-.footer-bottom-links a:hover {
-  text-decoration: underline;
-}
-
-.menu-desktop {
-  display: none;
+.header-footer {
+    position: absolute;
+    top: 80px; 
+    left: 24px;
+    width: 327px;
+    height: 50.8px;
 }
 
 
 
 
-*/
+.subscribe-to-our-container {
+    position: absolute;
+    left: 0.41%;
+}
+.email-address {
+    position: absolute;
+    left: 0%;
+    letter-spacing: -0.3px;
+    opacity: 0.5;
+    mix-blend-mode: normal;
+    color: #FFFFFF;
+}
+
+.group-child {
+    position: absolute;
+    left: 0px;
+    width: 244px;
+    height: 0.5px;
+    object-fit: contain;
+}
+
+.email-address-parent {
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    left: 0%;
+    height: 29px;
+    font-size: 15px;
+}
+
+.subscribe-to-our-new-parent {
+    position: absolute;
+    /* Adicionando um 'top' para posicionar a seção do newsletter */
+    top: 200px; /* CORRIGIDO: Adicionado para posicionamento vertical */
+    width: 65.07%;
+    right: 28.53%;
+    left: 6.4%;
+    height: 117px;
+    font-size: 22px;
+}
+
+
+.submit-icon {
+    position: absolute;
+    height: 0.56%;
+    width: 13.33%;
+    right: 15.2%;
+    bottom: 9.8%;
+    left: 71.47%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.services {
+    position: relative;
+    letter-spacing: 0.1em;
+    opacity: 0.5;
+}
+.about {
+    position: relative;
+    font-weight: 500;
+}
+.about-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 20px;
+}
+.services-parent {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 28px;
+}
+.frame-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 66px;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    opacity: 0.1;
+}
+.vector-icon {
+    position: absolute;
+    height: 39.83%;
+    width: 40%;
+    top: 30%;
+    right: 30%;
+    bottom: 30.17%;
+    left: 30%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.rectangle-group {
+    width: 60px;
+    position: relative;
+    height: 60px;
+}
+.frame-icon {
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+}
+.group-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 17px;
+}
+.frame-container {
+    position: absolute;
+    top: 279px;
+    left: 0px;
+    width: 306px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 79px;
+}
+.frame-parent {
+    position: absolute;
+    top: 400px; /* CORRIGIDO: O valor foi alterado de 8215px */
+    left: 24px;
+    width: 306px;
+    height: 493px;
+    font-family: Raleway;
+}
+.company-inc {
+    position: relative;
+    font-weight: 600;
+}
+.privacy-policy {
+    position: relative;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.privacy-policy-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 14px;
+}
+.company-inc-parent {
+    position: absolute;
+    top: 950px; /* CORRIGIDO: O valor foi alterado de 8788px */
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-family: Raleway;
+}
+
