@@ -46,6 +46,8 @@ O projeto está organizado da seguinte forma:
 ├── /fonts/               // Pasta para as fontes locais
 └── README.md             // Documentação do projeto
 
+---
+
 ### 🚀 Como Executar Localmente
 
 Para visualizar o projeto em sua máquina, siga os passos abaixo:
@@ -68,9 +70,9 @@ Para visualizar o projeto em sua máquina, siga os passos abaixo:
 
 ### 🧠 Desafios e Aprendizados
 
-> 💪 **Maior desafio:** 'Garantir que a grade de serviços na seção "Our Services" se adaptasse de uma coluna no mobile para três colunas no desktop de forma fluida e sem quebrar o layout foi o principal desafio. Superei utilizando CSS Grid com a função `repeat(auto-fit, minmax(300px, 1fr))` para criar uma grade automática e flexível.']
+> 💪 **Maior desafio:** 'Garantir que a grade de serviços na seção "Our Services" se adaptasse de uma coluna no mobile para três colunas no desktop de forma fluida e sem quebrar o layout foi o principal desafio. Superei utilizando CSS Grid com a função `repeat(auto-fit, minmax(300px, 1fr))` para criar uma grade automática e flexível.'
 
-> 💡 **Principal aprendizado:** [ 'Este projeto foi essencial para aprimorar meu uso da função `clamp()`. Entender como criar valores mínimos, preferenciais e máximos para fontes e espaçamentos mudou minha forma de pensar sobre design fluido, reduzindo a necessidade de múltiplos breakpoints.']
+> 💡 **Principal aprendizado:** 'Este projeto foi essencial para aprimorar meu uso da função `clamp()`. Entender como criar valores mínimos, preferenciais e máximos para fontes e espaçamentos mudou minha forma de pensar sobre design fluido, reduzindo a necessidade de múltiplos breakpoints.'
 
 ---
 
