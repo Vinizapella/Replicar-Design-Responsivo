@@ -6,9 +6,8 @@
 
 ### 🎥 Demonstração do Projeto
 
-![Demonstração do Projeto Architect Service]([COLOQUE AQUI O LINK PARA SEU GIF OU SCREENSHOT])
+![Demonstração do Projeto Architect Service]
 
-*(**Dica:** Um GIF mostrando a página se adaptando do mobile para o desktop é a melhor forma de destacar a responsividade!)*
 
 ---
 
@@ -21,7 +20,6 @@ O desafio deste projeto foi transformar um design de alta fidelidade do Figma em
 ### 🔗 Links Relevantes
 
 * **Layout Original (Figma):** [https://www.figma.com/design/YBFuYaYIRydws06EDvwZkv/Untitled?node-id=0-1&t=jdAxIBgVIpL61V8f-1](https://www.figma.com/design/YBFuYaYIRydws06EDvwZkv/Untitled?node-id=0-1&t=jdAxIBgVIpL61V8f-1)
-* **Deploy do Projeto:** [Link para o projeto no Vercel, GitHub Pages, etc.]
 
 ---
 
@@ -70,9 +68,9 @@ Para visualizar o projeto em sua máquina, siga os passos abaixo:
 
 ### 🧠 Desafios e Aprendizados
 
-> 💪 **Maior desafio:** [Descreva aqui a parte que mais te desafiou. Ex: 'Garantir que a grade de serviços na seção "Our Services" se adaptasse de uma coluna no mobile para três colunas no desktop de forma fluida e sem quebrar o layout foi o principal desafio. Superei utilizando CSS Grid com a função `repeat(auto-fit, minmax(300px, 1fr))` para criar uma grade automática e flexível.']
+> 💪 **Maior desafio:** 'Garantir que a grade de serviços na seção "Our Services" se adaptasse de uma coluna no mobile para três colunas no desktop de forma fluida e sem quebrar o layout foi o principal desafio. Superei utilizando CSS Grid com a função `repeat(auto-fit, minmax(300px, 1fr))` para criar uma grade automática e flexível.']
 
-> 💡 **Principal aprendizado:** [Qual foi o conceito que você mais solidificou? Ex: 'Este projeto foi essencial para aprimorar meu uso da função `clamp()`. Entender como criar valores mínimos, preferenciais e máximos para fontes e espaçamentos mudou minha forma de pensar sobre design fluido, reduzindo a necessidade de múltiplos breakpoints.']
+> 💡 **Principal aprendizado:** [ 'Este projeto foi essencial para aprimorar meu uso da função `clamp()`. Entender como criar valores mínimos, preferenciais e máximos para fontes e espaçamentos mudou minha forma de pensar sobre design fluido, reduzindo a necessidade de múltiplos breakpoints.']
 
 ---
 
