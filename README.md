@@ -4,13 +4,6 @@
 
 ---
 
-### 🎥 Demonstração do Projeto
-
-![Demonstração do Projeto Architect Service]
-
-
----
-
 ### 💡 Sobre o Projeto
 
 O desafio deste projeto foi transformar um design de alta fidelidade do Figma em uma landing page totalmente funcional e responsiva. A meta principal era alcançar uma réplica "pixel-perfect" do layout, utilizando as melhores práticas de desenvolvimento web moderno como **HTML semântico** e **CSS modular**, com uma arquitetura de estilos construída em **Mobile First**.
