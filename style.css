@@ -1039,6 +1039,9 @@ height: auto;
 /* ===============================
             Customer Style
    =============================== */
+  .costumer-desktop{
+  display: none;
+}
 
 
 .customer {
@@ -1570,6 +1573,7 @@ height: auto;
     align-items: center;
     gap: 30px;
   }
+  
   /* ===============================
             Customer Style
    =============================== */
@@ -2016,6 +2020,61 @@ height: auto;
   padding-bottom: 7rem;
 }
 
+.customer {
+  padding-left: 6.4vw;
+   padding-right: 6.4vw;
+}
+
+.header-customer {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding-bottom: 3rem ;
+}
+    
+.title-customer {
+  padding-top: 0;
+}
+
+.buttom-customer h3 {
+  margin: 0;
+}
+
+.container-costumer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 30px;
+  }
+    
+.men {
+  padding-left: 0;
+  width: clamp(20.4375rem, 18.281rem + 9.222vw, 26.1875rem);
+}
+    
+.changi {
+  margin-left: 6.4vw;
+}
+    
+.subtitle-skill {
+  padding-top: 0;
+}
+
+.person {
+  padding-left: 6.4vw;
+}
+
+.buttom-person {
+  padding-right: 6.4vw;
+}
+
+.footer-customer {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+}
 
 
 
