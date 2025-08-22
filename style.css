@@ -92,6 +92,13 @@
   display: none;
 }
   
+.arrow-work-desktop{
+  display: none;
+}
+
+.impacts-number-desktop{
+  display: none;
+}
 
   /* ===============================
             Header Style
@@ -1708,7 +1715,7 @@ height: auto;
   .service-option-personal,
   .service-option.organization-option {
     width: 100%; 
-    margin: 1.5rem 0;
+    margin-top: 1.5rem ;
   }
 
   .arrow-right,
@@ -1721,7 +1728,7 @@ height: auto;
   .service-option-personal {
     flex-direction: column;
     align-items: flex-start;
-    padding: 1rem 1.5rem;
+    padding: 0rem 1.5rem;
     height: auto;
     width: 90%;
   }
@@ -1750,6 +1757,10 @@ height: auto;
     border-radius: 8px;
   }
 
+  .services-section h2{
+  text-align: center;
+  } 
+
 
 }
 /* ===============================
@@ -1767,6 +1778,13 @@ height: auto;
   =============================== */
   .menu-hamburguer {
     display: none;
+  }
+  .arrow-work-mobile{
+    display: none;
+  }
+
+  .impacts-number-desktop{
+    display: flex;
   }
 
   .menu-desktop {
@@ -1938,6 +1956,10 @@ height: auto;
     position: relative;
   }
 
+  .arrow-work-desktop{
+    display: flex;
+  }
+
   .work-meta-desktop {
     color: #FFFFFF;
     font-size: 17.9px;
@@ -1974,6 +1996,27 @@ height: auto;
   margin: 0; 
   padding: 5rem 0;
 }
+
+.header-impacts-number{
+  align-items: left;
+  text-align: left;
+  padding-bottom: 10rem;
+}
+
+.title-impacts-number h2{
+  font-size: 3.625rem;
+}
+
+.people-talkiing{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.header-impacts-number-titles{
+  padding-bottom: 7rem;
+}
+
+
 
 
 }
