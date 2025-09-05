@@ -72,3 +72,9 @@ Para visualizar o projeto em sua máquina, siga os passos abaixo:
 ### 📌 Observações
 
 * Este é um projeto puramente focado em Front-End estático (HTML/CSS), sem a inclusão de JavaScript. O objetivo principal foi a excelência na construção da interface e na sua capacidade de adaptação.
+
+---
+
+<p align="center">
+  &copy; 2025 - Programação Front-End
+</p>
